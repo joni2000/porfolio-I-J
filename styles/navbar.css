@@ -1,0 +1,40 @@
+.header-container {
+    position: fixed;
+    top: 0;
+    background-color: #383838;
+    opacity: 0.9;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    z-index: 9999;
+}
+
+.header-icon {
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.navlist-container {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-grow: 0.6;
+}
+
+.navlist-container li {
+    color: white;
+}
+
+@media screen and (min-width: 900px) {
+    .header-icon {
+        display: none;
+    }
+
+    .header-icon:hover {
+        cursor: pointer;
+    }
+}
