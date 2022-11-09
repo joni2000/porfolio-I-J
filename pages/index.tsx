@@ -1,5 +1,8 @@
-import Head from 'next/head'
-import { Navbar } from '../components/Navbar'
+import Head from "next/head";
+import Image from "next/image";
+import { MainSvg } from "../components/MainSvg";
+import { Navbar } from "../components/Navbar";
+import { Presentation } from "../components/Presentation";
 
 export default function Home() {
   return (
@@ -10,10 +13,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className="main-container">
         <Navbar />
-        
+        <Presentation /> 
       </main>
     </div>
-  )
+  );
 }
