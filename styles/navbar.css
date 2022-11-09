@@ -1,12 +1,11 @@
 .header-container {
     position: fixed;
-    top: 0;
-    background-color: #383838;
+    top: 12px;
     opacity: 0.9;
     height: 45px;
-    width: 100%;
+    width: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 8px;
     z-index: 9999;
@@ -19,10 +18,16 @@
 }
 
 .navlist-container {
+    padding: 0;
     display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: space-around;
+    border-radius: 15px ;
+    align-items: center;
     list-style: none;
     flex-grow: 0.6;
+    background-color: #38383849;
 }
 
 .navlist-container li {
