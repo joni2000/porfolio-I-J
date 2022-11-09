@@ -15,9 +15,7 @@ export default function Home() {
 
       <main className="main-container">
         <Navbar />
-
         <Presentation /> 
-        
       </main>
     </div>
   );
