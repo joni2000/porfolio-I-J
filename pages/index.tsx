@@ -12,7 +12,7 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <h1>mi portfolio</h1>
+        
       </main>
     </div>
   )
