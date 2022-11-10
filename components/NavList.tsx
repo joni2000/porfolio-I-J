@@ -3,11 +3,11 @@ import Link from "next/link"
 const linkList = [
     { 
         name: "Inicio",
-        url: "/aboutme"
+        url: "/"
     },
     { 
-        name: "Tecnologías",
-        url: "/tecnologies"
+        name: "Conocimento",
+        url: "#tecnologies"
     },
     { 
         name: "Proyectos",
