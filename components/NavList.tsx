@@ -2,7 +2,7 @@ import Link from "next/link"
 
 const linkList = [
     { 
-        name: "Sobre mi",
+        name: "Inicio",
         url: "/aboutme"
     },
     { 
@@ -12,6 +12,10 @@ const linkList = [
     { 
         name: "Proyectos",
         url: "/proyects"
+    },
+    { 
+        name: "Contacto",
+        url: "/contact"
     },
     { 
         name: "Mi CV",

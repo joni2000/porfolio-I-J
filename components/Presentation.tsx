@@ -6,7 +6,11 @@ export const Presentation = () => {
         <section className='presentation'>
             <section className='title animate__animated animate__fadeInLeft'>
                 <h2>Hola👋, Soy Jonathan</h2>
-                <h2>{`<>Desarrollador web full stack</>`}</h2>
+                <h2>
+                    <span>{'<>'}</span> 
+                    Desarrollador web full stack 
+                    <span>{'</>'}</span>
+                </h2>
             </section>
 
             <MainSvg></MainSvg>
