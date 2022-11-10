@@ -3,8 +3,8 @@ import 'animate.css';
 
 export const Presentation = () => {
     return ( 
-        <section className='presentation'>
-            <section className='title animate__animated animate__fadeInLeft'>
+        <section className='sections presentation' id='index'>
+            <section className='title animate__animated animate__fadeInLeft'    >
                 <h2>Hola👋, Soy Jonathan</h2>
                 <h2>
                     <span>{'<>'}</span> 
@@ -13,7 +13,7 @@ export const Presentation = () => {
                 </h2>
             </section>
 
-            <MainSvg></MainSvg>
+            <MainSvg />
         </section>
     )
 };

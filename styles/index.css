@@ -2,11 +2,13 @@
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
 }
 
 svg {
-    background-color: rgb(26, 25, 25);
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,17 +39,91 @@ svg {
 
 .presentation {
     margin-top: 60px;
-    height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;    
+    gap: 30px;
+    background-size: 100vw;
+}
+
+.sections {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 svg.animated {
     animation: 6s Infinite linear shake;
     animation-delay: 2s;
+}
+
+/* Tecnologies */
+.icon-t {
+    font-size: 50px;
+}
+
+.container-tec {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.container-tec div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container-tec div p {
+    margin: 0;
+    font-weight: 500;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .title h2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .sections {
+        height: 100vh;
+        padding: 90px 0 0 0;
+    }
+
+    .title h2 {
+        font-size: 32px;
+    }
+
+    svg {
+        width: 500px;
+        height: 500px;
+    }
+
+    .presentation {
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /* tecnologies */
+
+    .container-tec {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 70px 40px;
+    }
+
+    .icon-t {
+        font-size: 70px;
+    }
+
 }
 
 @keyframes shake {
@@ -72,45 +148,4 @@ svg.animated {
     60% {
         transform: translate3d(4px, 0, 0);
     }
-}
-
-/* @keyframes floating {
-    0% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
-} */
-
-@media screen and (min-width: 768px) {
-    .title h2 {
-        font-size: 24px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-
-    .title h2 {
-        font-size: 32px;
-    }
-
-    svg {
-        width: 500px;
-        height: 500px;
-    }
-
-    .presentation {
-        flex-direction: row;
-        justify-content: center;
-        gap: 10px;
-    }
-
 }
