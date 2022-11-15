@@ -4,7 +4,7 @@ import { NavList } from './NavList';
 export const Navbar:React.FC = () => {
   return (
     <header className="header-container">
-      <MenuRoundedIcon className="header-icon"/>
+      {/* <MenuRoundedIcon className="header-icon"/> */}
 
       <NavList />
     </header>
