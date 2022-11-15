@@ -21,6 +21,7 @@ svg {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
 }
 
 .title h2 {
@@ -79,6 +80,7 @@ svg.animated {
 .container-tec div p {
     margin: 0;
     font-weight: 500;
+    font-size: 14px;
 }
 
 .container-contact {
@@ -99,10 +101,27 @@ svg.animated {
     height: 50px;
 }
 
+.container-cv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+embed {
+    height: 350px;
+}
+
+
 
 @media screen and (min-width: 768px) {
-    .title h2 {
+
+    .title {
         font-size: 24px;
+    }
+
+    embed {
+        height: 500px;
     }
 }
 
@@ -136,6 +155,10 @@ svg.animated {
         grid-template-columns: repeat(4, 1fr);
         gap: 70px 40px;
     }
+    
+    .container-tec div p {
+        font-size: 16px;
+    }
 
     .icon-t {
         font-size: 70px;
@@ -154,6 +177,10 @@ svg.animated {
 
     .icons-contact svg:hover {
         color: var(--secondary-color);
+    }
+
+    embed {
+        height: 80vh;
     }
 
 }

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Contact } from "../components/Contact";
+import { MiCv } from "../components/MiCv";
 import { Navbar } from "../components/Navbar";
 import { Presentation } from "../components/Presentation";
 import { Tecnologies } from "../components/Tecnologies";
@@ -25,7 +26,10 @@ export default function Home() {
 
         <Tecnologies />
         
+        <MiCv />
+        
         <Contact />
+
         
       </main>
     </div>

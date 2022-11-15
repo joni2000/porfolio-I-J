@@ -11,7 +11,7 @@ const linkList = [
     },
     { 
         name: "Proyectos",
-        url: "/proyects"
+        url: "/"
     },
     { 
         name: "Contacto",
@@ -19,7 +19,7 @@ const linkList = [
     },
     { 
         name: "Mi CV",
-        url: "/curriculum"
+        url: "#mi-cv"
     },
 ]
 export const NavList:React.FC = () => {
