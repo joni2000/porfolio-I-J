@@ -1,10 +1,11 @@
 import Head from "next/head";
-import Script from "next/script";
+import { Contact } from "../components/Contact";
 import { Navbar } from "../components/Navbar";
 import { Presentation } from "../components/Presentation";
 import { Tecnologies } from "../components/Tecnologies";
 
 export default function Home() {
+
   return (
     <div>
       <Head>
@@ -23,6 +24,9 @@ export default function Home() {
         <Presentation />
 
         <Tecnologies />
+
+        <Contact />
+        
       </main>
     </div>
   );

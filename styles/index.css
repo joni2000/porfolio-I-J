@@ -81,6 +81,23 @@ svg.animated {
     font-weight: 500;
 }
 
+.container-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.icons-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.icons-contact svg {
+    width: 50px;
+    height: 50px;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -122,6 +139,21 @@ svg.animated {
 
     .icon-t {
         font-size: 70px;
+    }
+
+    .container-contact {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+    }
+
+    .icons-contact svg {
+        width: 70px;
+        height: 70px;
+        transition: all 0.3s ease;
+    }
+
+    .icons-contact svg:hover {
+        color: var(--secondary-color);
     }
 
 }
