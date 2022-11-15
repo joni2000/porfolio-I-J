@@ -15,7 +15,7 @@ const linkList = [
     },
     { 
         name: "Contacto",
-        url: "/contact"
+        url: "#contact"
     },
     { 
         name: "Mi CV",
