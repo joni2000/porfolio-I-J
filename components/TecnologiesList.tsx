@@ -58,8 +58,8 @@ export const TecnologiesList:React.FC = () => {
             type: "plain colored"
         },
         {
-            icon: "sequelize",
-            title: "Sequelize",
+            icon: "firebase",
+            title: "Firebase",
             type: "plain colored"
         },
 

@@ -83,6 +83,31 @@ svg.animated {
     font-size: 14px;
 }
 
+/* Projects */
+
+.container-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.proyect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding:0 20px 10px 20px;
+    background-color: rgb(44, 44, 44);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+}
+
+.proyect img {
+    border-radius: 10px;
+}
+
 .container-contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

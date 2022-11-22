@@ -4,6 +4,7 @@ import { MiCv } from "../components/MiCv";
 import { Navbar } from "../components/Navbar";
 import { Presentation } from "../components/Presentation";
 import { Tecnologies } from "../components/Tecnologies";
+import { Proyects } from "../components/Proyects";
 
 export default function Home() {
 
@@ -26,9 +27,12 @@ export default function Home() {
 
         <Tecnologies />
         
+        <Proyects />
+        
         <MiCv />
         
         <Contact />
+
 
         
       </main>

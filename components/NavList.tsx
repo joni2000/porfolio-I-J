@@ -11,15 +11,15 @@ const linkList = [
     },
     { 
         name: "Proyectos",
-        url: "/"
-    },
-    { 
-        name: "Contacto",
-        url: "#contact"
+        url: "#proyects"
     },
     { 
         name: "Mi CV",
         url: "#mi-cv"
+    },
+    { 
+        name: "Contacto",
+        url: "#contact"
     },
 ]
 export const NavList:React.FC = () => {
